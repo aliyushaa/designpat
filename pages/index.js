@@ -1,7 +1,7 @@
 export default function Home(){
   return(
       <div>
-        <h1> Registraion </h1>
+        <h1> Registration </h1>
         <form action="/api/sign" method="post">
           <label>
             EMail Address
