@@ -16,6 +16,6 @@ export default async function handler(req,res){
             return res.json({"code":'User not created'})
         }
     } catch (error) {
-        res.status(400).json({status:'User is created!'})
+        res.status(400).json({status:'User is not created!'})
     }
 }
